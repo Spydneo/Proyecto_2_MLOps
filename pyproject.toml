@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mipaquete"
-version = "0.1.0"
+version = "0.2.0"
 description = "Proyecto de empaquetamiento MLOps"
 authors = ["Spydneo <jairoecalderon@gmail.com>"]
 license = "MIT"

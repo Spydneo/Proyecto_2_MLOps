@@ -1,4 +1,4 @@
-name: Building CI/CD
+name: Building mipaquete CI/CD
 run-name: ${{ github.actor }} is testing mipaquete 🚀
 on: [push]
 # on:
@@ -19,10 +19,8 @@ jobs:
         uses: snok/install-poetry@v1
       - name: Build mipaquete
         run: poetry build
-
-
-
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Publish Release to GH
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{ github.workspace }}/dist/*
