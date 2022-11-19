@@ -16,6 +16,8 @@ Jairo Calderón
    :maxdepth: 2
    :caption: Contents:
 
+   install
+
 
 
 Indices and tables
