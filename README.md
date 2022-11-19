@@ -1,1 +1,1 @@
-Paquete que implementa algunas funciones básicas de una calculadora
+Paquete que implementa algunas funciones básicas aritméticas y de transformación de strings.
