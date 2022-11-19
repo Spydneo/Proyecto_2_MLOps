@@ -1,4 +1,4 @@
-name: Building mipaquete CI/CD
+name: Building CI/CD mipaquete
 run-name: ${{ github.actor }} is testing mipaquete 🚀
 on: [push]
 # on:
@@ -9,6 +9,8 @@ jobs:
   building_mipaquete:
     runs-on: ubuntu-latest
     steps:
+      - name: hola()
+        uses: echo "hola"
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Install Python
@@ -19,6 +21,8 @@ jobs:
         uses: snok/install-poetry@v1
       - name: Build mipaquete
         run: poetry build
+      - name: Testing
+        run: poetry run pytest
       - name: Publish Release to GH
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v1
