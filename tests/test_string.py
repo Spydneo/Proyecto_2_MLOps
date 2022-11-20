@@ -1,5 +1,4 @@
 import mipaquete.string as strg
-# from mipaquete.math import sumar
 
 def test_strg_minusculas():
     """Comprueba que pase de mayusculas a minusculas

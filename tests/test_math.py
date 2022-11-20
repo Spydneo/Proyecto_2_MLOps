@@ -1,5 +1,4 @@
 import mipaquete.math as math
-# from mipaquete.math import sumar
 
 def test_math_sumar():
     """Comprueba que la operación sumar sea correcta

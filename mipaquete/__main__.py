@@ -1,3 +1,8 @@
+"""
+Entry point en caso de llamar al paquete mipaquete
+
+>>> python -m mipaquete
+"""
 def hola():
     """Función para probar en actions CI/CD
     """
