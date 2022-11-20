@@ -1,5 +1,9 @@
 Repositorio proyecto de empaquetación Jairo Calderón
 ====================================================
+*En esta rama se añade el empaquetamiento de un modelo (Titanic)
+ para probarlo se puede llamar a la función al main de la función fit.
+ En progreso...
+
 Paquete que implementa algunas funciones básicas aritméticas y de transformación de strings.
 
 En la sección de GH Actions del proyecto se muestran los reportes de los test realizados, el coverage y el building.
