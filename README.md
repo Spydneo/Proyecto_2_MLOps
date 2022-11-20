@@ -12,5 +12,4 @@ URL de Documentación
 
 En la siquiente URL se puede verificar online la documentación creada en Read The Docs utilizando autoapi y sphinx.
 
-`RTD <https://proyecto-2-mlops.readthedocs.io/en/latest/index.html>`__
-
+[RTD](https://proyecto-2-mlops.readthedocs.io/en/latest/index.html)
