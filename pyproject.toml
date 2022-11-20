@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mipaquete"
-version = "0.2.4"
+version = "0.3.0"
 description = "Proyecto de empaquetamiento MLOps"
 authors = ["Spydneo <jairoecalderon@gmail.com>"]
 license = "MIT"
@@ -13,6 +13,7 @@ python = "^3.9"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
 Sphinx = "^5.3.0"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
